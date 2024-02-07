@@ -1,0 +1,35 @@
+This data can be used for icon change
+
+
+if (data.Weather[0].icon==="01d" || data.Weather[0].icon==="01n")
+        {
+            setwicon(clear_icon);
+       }
+       else if (data.Weather[0].icon==="02d" || data.Weather[0].icon==="02n")
+       {
+        setwicon(cloud_icon);
+       }
+       else if (data.Weather[0].icon==="03d" || data.Weather[0].icon==="03n")
+       {
+        setwicon(drizzle_icon);
+       }
+       else if (data.Weather[0].icon==="04d" || data.Weather[0].icon==="04n")
+       {
+        setwicon(drizzle_icon);
+       }
+       else if (data.Weather[0].icon==="09d" || data.Weather[0].icon==="09n")
+       {
+        setwicon(rain_icon);
+       }
+       else if (data.Weather[0].icon==="10d" || data.Weather[0].icon==="10n")
+       {
+        setwicon(rain_icon);
+       }
+       else if (data.Weather[0].icon==="13d" || data.Weather[0].icon==="13n")
+       {
+        setwicon(snow_icon);
+       }
+       else
+       {
+        setwicon(clear_icon);
+       }
